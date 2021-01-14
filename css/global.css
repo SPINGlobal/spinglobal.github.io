@@ -49,29 +49,8 @@ small {
 	margin-bottom: -15px;
 }
 
-/*component styles*/
-
-/*Flex Styles*/
-.flex_center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-.flex {
-	display: flex;
-}
-
-.flex_column-center {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.flex_main-center {
-	display: flex;
-	align-items: center;
+a {
+	text-decoration: none;
 }
 
 /*Font Styles*/
