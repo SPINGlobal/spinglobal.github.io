@@ -67,6 +67,10 @@ a {
 	text-decoration: none;
 }
 
+a, a:visited {
+	color: var(--color-primary2);
+}
+
 /*Font Styles*/
 .font_header-primary {
 	font-size: var(--modular-size-l6);
