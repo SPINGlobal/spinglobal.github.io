@@ -1382,19 +1382,19 @@ var app = (function () {
     			attr_dev(img, "class", "cap-icon svelte-1l21yak");
     			attr_dev(img, "alt", "capability icon");
     			if (img.src !== (img_src_value = "./capabilities/" + /*cap*/ ctx[2].img)) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$3, 51, 16, 2080);
+    			add_location(img, file$3, 51, 16, 2065);
     			attr_dev(h2, "class", "font_header-secondary inline");
     			set_style(h2, "margin-right", "-5px");
-    			add_location(h2, file$3, 54, 20, 2213);
+    			add_location(h2, file$3, 54, 20, 2198);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "href", ctx[2].file);
-    			add_location(a, file$3, 57, 24, 2426);
+    			add_location(a, file$3, 57, 24, 2411);
     			attr_dev(p, "class", "font_text-primary inline");
-    			add_location(p, file$3, 55, 20, 2321);
+    			add_location(p, file$3, 55, 20, 2306);
     			attr_dev(div0, "class", "ml-l0");
-    			add_location(div0, file$3, 52, 16, 2172);
+    			add_location(div0, file$3, 52, 16, 2157);
     			attr_dev(div1, "class", "w-max-p100 m-n2 flex-row--cc");
-    			add_location(div1, file$3, 50, 12, 2021);
+    			add_location(div1, file$3, 50, 12, 2006);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -1451,10 +1451,10 @@ var app = (function () {
 
     			t = space();
     			div1 = element("div");
-    			attr_dev(div0, "class", "flex-col--tl");
-    			add_location(div0, file$3, 48, 4, 1946);
+    			attr_dev(div0, "class", "flex-col--tl mt-l4");
+    			add_location(div0, file$3, 48, 4, 1925);
     			attr_dev(div1, "class", "mb-l3");
-    			add_location(div1, file$3, 67, 4, 2659);
+    			add_location(div1, file$3, 67, 4, 2644);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div0, anchor);
@@ -1617,7 +1617,7 @@ var app = (function () {
 
     	const pageInfo = {
     		headerText: "Featured Capabilities",
-    		text: "How do we disrupt disasters? We provide customized solutions focused on disaster resilience, risk reduction, disaster resilience, emergency and crisis management for private industry, governments, and communities. Visit our map below to learn more about our projects."
+    		text: "How do we disrupt disasters? We provide customized solutions focused on disaster resilience, risk reduction, emergency and crisis management for private industry, governments, and communities. Visit our map below to learn more about our projects."
     	};
 
     	const writable_props = [];
@@ -3305,11 +3305,6 @@ var app = (function () {
     	let a2;
     	let t8;
     	let p2;
-    	let t10;
-    	let script0;
-    	let script0_src_value;
-    	let t12;
-    	let script1;
 
     	const block = {
     		c: function create() {
@@ -3331,11 +3326,6 @@ var app = (function () {
     			t8 = space();
     			p2 = element("p");
     			p2.textContent = "Copyright © 2021 SPIN Global. All Rights Reserved.";
-    			t10 = space();
-    			script0 = element("script");
-    			script0.textContent = "lang: en_US";
-    			t12 = space();
-    			script1 = element("script");
     			if (img.src !== (img_src_value = "./gsa_holder.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "GSA contract");
     			attr_dev(img, "class", "svelte-1f0bqzk");
@@ -3356,13 +3346,6 @@ var app = (function () {
     			add_location(p1, file$8, 6, 4, 260);
     			attr_dev(p2, "class", "font_text-primary text-center grey mt-l1");
     			add_location(p2, file$8, 7, 4, 531);
-    			if (script0.src !== (script0_src_value = "https://platform.linkedin.com/in.js")) attr_dev(script0, "src", script0_src_value);
-    			attr_dev(script0, "type", "text/javascript");
-    			add_location(script0, file$8, 8, 4, 642);
-    			attr_dev(script1, "type", "IN/FollowCompany");
-    			attr_dev(script1, "data-id", "674969");
-    			attr_dev(script1, "data-counter", "bottom");
-    			add_location(script1, file$8, 9, 4, 741);
     			attr_dev(div, "class", "flex-col--tc border m-l0 svelte-1f0bqzk");
     			add_location(div, file$8, 3, 0, 20);
     		},
@@ -3384,10 +3367,6 @@ var app = (function () {
     			append_dev(p1, a2);
     			append_dev(div, t8);
     			append_dev(div, p2);
-    			append_dev(div, t10);
-    			append_dev(div, script0);
-    			append_dev(div, t12);
-    			append_dev(div, script1);
     		},
     		p: noop,
     		i: noop,
