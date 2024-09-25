@@ -1,11 +1,11 @@
 .of-auto {
-  overflow: auto;
+	overflow: auto;
 }
 
 .of-scroll {
-  overflow: scroll;
+	overflow: scroll;
 }
 
 .of-hidden {
-  overflow: hidden;
+	overflow: hidden;
 }
