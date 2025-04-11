@@ -32,13 +32,6 @@
 	align-items: flex-start;
 }
 
-.flex-col--tc {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-}
-
 /*column center styles*/
 
 .flex-col--cl {
